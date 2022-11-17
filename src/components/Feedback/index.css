@@ -1,0 +1,82 @@
+.app-container {
+  background-image: linear-gradient(to right, #ffeeee, #ffc0bb);
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.emojis-container {
+  background-color: #ffffff;
+  width: 80%;
+  max-width: 600px;
+  border-radius: 10px;
+  padding: 10px;
+}
+
+.feedback-container {
+  display: flex;
+  flex-direction: column;
+}
+.feedback-question {
+  color: #13244d;
+  font-family: 'Roboto';
+  font-size: 15px;
+  font-weight: 500;
+  text-align: center;
+}
+
+.list-items {
+  margin-top: 32px;
+  display: flex;
+  justify-content: space-around;
+  list-style-type: none;
+  padding: 0px;
+}
+
+.emoji-btn {
+  border: none;
+  background-color: #ffffff;
+  cursor: pointer;
+  outline: none;
+}
+
+.emoji {
+  width: 45px;
+  height: 45px;
+  margin-bottom: 16px;
+}
+
+.emoji-name {
+  color: #1e293b;
+  font-family: 'Roboto';
+  font-size: 15px;
+}
+
+.thank-you-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.love-emoji {
+  width: 56px;
+  height: 45px;
+}
+
+.feedback {
+  color: #1e293b;
+  font-family: 'Roboto';
+  font-size: 24px;
+  font-size: 500;
+  text-align: center;
+}
+
+.description {
+  color: #1e293b;
+  font-family: 'Roboto';
+  font-size: 16px;
+  font-size: 300;
+  text-align: center;
+}
